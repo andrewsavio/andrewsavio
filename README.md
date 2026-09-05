@@ -1,60 +1,107 @@
 <div align="center">
 
-# Andrew Savio M
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Andrew%20Savio%20M&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-stack%20%26%20AI%20Developer&descAlignY=55&descSize=20" />
 
-### Full-stack & AI Developer
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDAE&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+Intern+%40+Bella+Technologies;I+build+systems+where+the+model+AND+the+product+work;PyTorch+%7C+React+%7C+Node+%7C+Flask+%7C+PostgreSQL;Open+to+SWE+and+Data%2FAI+roles" />
 
-**Full Stack Developer Intern @ Bella Technologies** · B.Tech IT '28, Sri Sairam Engineering College · Chennai, India
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-savio-m/)
-[![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrewsaviom@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/andrew-savio-m/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL_HERE)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/YOUR_HANDLE/)
+[![Location](https://img.shields.io/badge/Chennai,_India-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+
+![Profile Views](https://komarev.com/ghpvc/?username=andrewsavio&label=Profile%20Views&color=38BDAE&style=for-the-badge)
 
 </div>
 
 ---
 
-## About
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> About me
 
-I build systems where the model **and** the product both have to work.
+```yaml
+name:      Andrew Savio M
+role:      Full Stack Developer Intern @ Bella Technologies
+prev:      AI Engineer Intern @ Softrate Global
+studying:  B.Tech Information Technology, Sri Sairam Engineering College
+graduating: 2028
+location:  Chennai, India
+building:  explainable ML, offline-first inference, things that run without a GPU
+open_to:   [ Software Engineering, Data & AI ]
+```
 
-- Currently shipping web products at **Bella Technologies**
-- Previously **AI Engineer Intern** at Softrate Global
-- Into **explainable ML**, offline-first inference, and anything that has to run without a GPU
-- Open to **Software Engineering** and **Data/AI** internships and 2028 new-grad roles
+- Shipped an explainable medical imaging pipeline and an offline neural TTS app that runs on a plain CPU
+- Four internships across QA, AI/ML, and full-stack development
+- Also run **Aspira Innovations**, which mostly taught me what it costs to keep software alive after the demo ends
 
 ---
 
-## Featured Projects
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Tech stack
+
+<div align="center">
+
+**Languages**
+
+[![Languages](https://skillicons.dev/icons?i=python,java,js,ts,dart,c&theme=dark)](https://skillicons.dev)
+
+**AI / ML & Data**
+
+[![AI](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
+
+**Backend**
+
+[![Backend](https://skillicons.dev/icons?i=nodejs,express,flask,postgres,supabase,sqlite&theme=dark)](https://skillicons.dev)
+
+**Frontend & Mobile**
+
+[![Frontend](https://skillicons.dev/icons?i=react,vite,flutter,tailwind,html,css&theme=dark)](https://skillicons.dev)
+
+**Tools**
+
+[![Tools](https://skillicons.dev/icons?i=git,github,docker,linux,postman,vscode&theme=dark)](https://skillicons.dev)
+
+</div>
+
+---
+
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> Featured projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### HealthGuard AI
-**Explainable medical scan analysis**
+<h3 align="center">HealthGuard AI</h3>
+<p align="center"><b>Explainable medical scan analysis</b></p>
 
-Classifies scan type across 8 modalities, detects 15+ findings with DenseNet-121, and returns Hi-Res CAM heatmaps plus an auto-generated PDF report so every prediction is inspectable.
+Classifies scan type across 8 modalities, detects 15+ findings with DenseNet-121, and returns Hi-Res CAM heatmaps plus an auto-generated PDF report, so every prediction can be checked rather than trusted.
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,pytorch,flask,opencv&theme=dark" />
+</p>
 
-[**View repo →**](https://github.com/andrewsavio/DoomSphere-HealthGuardAI)
+<p align="center">
+<a href="https://github.com/andrewsavio/DoomSphere-HealthGuardAI">
+<img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### Andrew's TTS
-**Offline voice cloning, CPU only**
+<h3 align="center">Andrew's TTS</h3>
+<p align="center"><b>Offline voice cloning, CPU only</b></p>
 
-A 100M-parameter flow-matching speech model running fully on-device. No GPU, no cloud API, no data leaving your machine. Clones a voice from a 10-second sample.
+A 100M-parameter flow-matching speech model running fully on-device. No GPU, no cloud API, nothing leaves your machine. Clones a voice from a 10-second sample and streams audio in real time.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,react,vite,docker&theme=dark" />
+</p>
 
-[**View repo →**](https://github.com/andrewsavio/Text-to-Speech-WebPage)
+<p align="center">
+<a href="https://github.com/andrewsavio/Text-to-Speech-WebPage">
+<img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+</p>
 
 </td>
 </tr>
@@ -62,62 +109,37 @@ A 100M-parameter flow-matching speech model running fully on-device. No GPU, no 
 
 ---
 
-## Stack
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> Experience
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-**Frontend & Mobile**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+| | Role | Focus |
+|---|---|---|
+| **Now** | Full Stack Developer Intern, **Bella Technologies** | React / Node / PostgreSQL product work |
+| | AI Engineer Intern, **Softrate Global** | ML pipelines and model deployment |
+| | Virtual Intern, **Edunet Foundation** | AI / ML fundamentals |
+| | Virtual Intern, **Cisco Networking Academy** | Networking and QA testing |
+| | Founder, **Aspira Innovations** | Client delivery, end to end |
 
 ---
 
-## Currently building
+## <img src="https://media.giphy.com/media/ZDbDNP0PqmxLNy0K7f/giphy.gif" width="28"> Currently building
 
 - **Solveli World** — a 3D navigable Tamil word-space, submitted to Aurex'26
+- **CivicConnect** — civic complaint platform with geo-temporal deduplication and urgency-aware priority scoring
 - Sharpening DSA on LeetCode
-- A few things I can't talk about yet
 
 ---
 
 <div align="center">
 
-### GitHub
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> GitHub activity
 
-<img src="https://github-readme-stats.vercel.app/api?username=andrewsavio&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrewsavio&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="150" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andrewsavio&theme=nord_dark" width="98%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=andrewsavio&theme=nord_dark" height="180" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=andrewsavio&theme=nord_dark" height="180" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=andrewsavio&theme=nord_dark&utcOffset=5.5" height="180" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=andrewsavio&theme=nord_dark" height="180" />
 
 </div>
 
@@ -125,8 +147,11 @@ A 100M-parameter flow-matching speech model running fully on-device. No GPU, no 
 
 <div align="center">
 
-**Open to Software Engineering and Data/AI roles.**
+### Open to Software Engineering and Data/AI internships and 2028 new-grad roles
 
-Chennai, India · [LinkedIn](https://www.linkedin.com/in/andrew-savio-m/) · [Email](mailto:YOUR_EMAIL_HERE)
+[![LinkedIn](https://img.shields.io/badge/Let's_talk-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-savio-m/)
+[![Email](https://img.shields.io/badge/Email_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL_HERE)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" />
 
 </div>
